@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "tutorial:ice_ether"
+        }
+    },
+    "result": {
+        "item": "tutorial:ice_ether_block"
+    }
+}
