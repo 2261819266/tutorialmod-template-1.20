@@ -2,10 +2,10 @@
 	"schemaVersion": 1,
 	"id": "tutorialmod",
 	"version": "${version}",
-	"name": "TutorialMod",
+	"name": "Tutorial Mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"Yuxinhao"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"com.yuxinhao.tutorialmod.TutorialMod"
+		],
+		"client": [
+			"com.yuxinhao.tutorialmod.TutorialModClient"
 		],
 		"fabric-datagen": [
 			"com.yuxinhao.tutorialmod.TutorialModDataGenerator"
