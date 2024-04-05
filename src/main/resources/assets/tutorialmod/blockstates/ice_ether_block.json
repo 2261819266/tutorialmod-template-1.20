@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "tutorialmod.block/ice_ether_block"
+            "model": "tutorialmod:block/ice_ether_block"
         }
     }
 }
