@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.yuxinhao.tutorialmod.item.ModItemGroup;
 import com.yuxinhao.tutorialmod.item.ModItems;
 
 public class TutorialMod implements ModInitializer {
@@ -23,5 +24,6 @@ public class TutorialMod implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 		
 		ModItems.registerModItems();
+		ModItemGroup.registerModItemGroup();
 	}
 }
