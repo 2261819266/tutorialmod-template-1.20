@@ -8,10 +8,10 @@
     ],
     "key": {
         "#": {
-            "item": "tutorial:ice_ether"
+            "item": "tutorialmod:ice_ether"
         }
     },
     "result": {
-        "item": "tutorial:ice_ether_block"
+        "item": "tutorialmod:ice_ether_block"
     }
 }
