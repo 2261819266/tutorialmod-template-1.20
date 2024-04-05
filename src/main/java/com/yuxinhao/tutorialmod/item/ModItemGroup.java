@@ -1,6 +1,7 @@
 package com.yuxinhao.tutorialmod.item;
 
 import com.yuxinhao.tutorialmod.TutorialMod;
+import com.yuxinhao.tutorialmod.block.ModBlocks;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.block.Blocks;
@@ -20,6 +21,7 @@ public class ModItemGroup {
         entries.add(ModItems.ICE_ETHER);
         entries.add(Items.BOOK);
         entries.add(Blocks.GRASS_BLOCK);
+        entries.add(ModBlocks.ICE_ETHER_BLOCK);
     }).build());
 
     public static void registerModItemGroup() {
